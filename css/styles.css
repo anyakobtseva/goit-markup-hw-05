@@ -705,7 +705,7 @@ a {
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.04em;
-  color: rgba(64, 64, 64, 0.6);
+  color: #8e8f99;
   line-height: 1.17;
 }
 
@@ -728,8 +728,9 @@ a {
 .review-form-checkbox:checked
   + .review-form-checkbox-label
   > .review-form-own-checkbox {
-  background-color: var(--accent-color);
-  fill: var(--color-brand);
+  background-color: var(--color-active);
+  fill: var(--color-light);
+  border: none; 
 }
 
 .review-form-checkbox:focus
